@@ -1,0 +1,16 @@
+.chat {
+  &-send-row {
+    margin-top: 24px;
+    display: flex;
+
+    .input {
+      flex: 1;
+      margin-right: 8px;
+    }
+
+    .button {
+      margin-bottom: 24px;
+      min-height: 0;
+    }
+  }
+}
